@@ -1,0 +1,21 @@
+{
+  "name": "unityblocks.cheats",
+  "displayName": "UnityBlocks.Cheats",
+  "version": "0.1.0",
+  "unity": "2022.2",
+  "description": "dev module",
+  "dependencies": {
+  },
+  "author": {
+    "name": "Valerii Strukovski"
+  },
+  "keywords": [
+    "script"
+  ],
+  "category": "editor extensions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vstrucovski/UnityBlocks.Cheats.git"
+  },
+  "type": "library"
+}
