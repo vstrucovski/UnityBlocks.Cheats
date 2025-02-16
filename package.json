@@ -1,7 +1,7 @@
 {
   "name": "unityblocks.cheats",
   "displayName": "UnityBlocks.Cheats",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "unity": "2022.2",
   "description": "dev module",
   "dependencies": {
