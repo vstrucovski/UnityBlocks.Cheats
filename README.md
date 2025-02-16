@@ -49,11 +49,16 @@ To add new buttons to the cheat panel, create a new MonoBehaviour and implement 
 ```
 _Example: Resetting Player Preferences_
 
-## 📝 Important Notes:
+#### 📝 Important Notes:
 Cheat Commands must be decorated with the [CheatCommand] attribute.
 
-The attribute accepts two optional parameters:
-- Command Value.
-- Category: Groups commands into categories.
-#### Register Commands: Ensure all command components are added to the CheatSetup object in the scene.
-- ![cheats_2.png](Documentation%2Fcheats_2.png)
+The attribute accepts two parameters:
+- Command Value (required)
+- Category: Groups commands into categories (optional)
+
+#### 3. Register Commands: Ensure all command components are added to the CheatSetup object in the scene.
+![cheats_2.png](Documentation%2Fcheats_2.png)
+
+## #TODO
+- auto hide panel for production builds
+- add shortcuts and option to toggle panel without ui button

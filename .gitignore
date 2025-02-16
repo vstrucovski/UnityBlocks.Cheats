@@ -70,8 +70,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-
-
 # Common IntelliJ Platform excludes
 
 # User specific
@@ -107,9 +105,3 @@ Desktop.ini
 [Ss]creenshots/
 [Aa]ssets/_Ignore
 [Aa]ssets/_Ignore.meta
-[Aa]ssets/GameCore/Resources/Settings/Editor/User
-[Aa]ssets/GameCore/Resources/Settings/Editor/User.meta
-                    
-# Ignore bank files in the StreamingAssets folder.
-/[Aa]ssets/StreamingAssets/**/*.bank
-/[Aa]ssets/StreamingAssets/**/*.bank.meta
