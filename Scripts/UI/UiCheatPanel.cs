@@ -43,7 +43,7 @@ namespace UnityBlocks.Cheats.UI
             }
 
             var size = content.sizeDelta;
-            size.y = listPrefab.Height * count + 100f;
+            size.y = listPrefab.Height * count + 60f;
             content.sizeDelta = size;
             DisableDefaultsUI();
         }
