@@ -33,6 +33,7 @@ namespace UnityBlocks.Cheats.UI
             int count = 1;
             foreach (var category in groupedCommands)
             {
+                count += 1;
                 DrawHeader(category);
                 foreach (var command in category)
                 {
@@ -42,7 +43,7 @@ namespace UnityBlocks.Cheats.UI
             }
 
             var size = content.sizeDelta;
-            size.y = listPrefab.Height * count + 125f;
+            size.y = listPrefab.Height * count + 100f;
             content.sizeDelta = size;
             DisableDefaultsUI();
         }
