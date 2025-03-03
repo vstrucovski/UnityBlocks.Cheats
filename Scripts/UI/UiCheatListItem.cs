@@ -11,6 +11,7 @@ namespace UnityBlocks.Cheats.UI
         [SerializeField] private TextMeshProUGUI buttonValue;
         [SerializeField] private Button button;
         public event Action OnClicked;
+        public float Height => GetComponent<RectTransform>().sizeDelta.y;
 
         private void Start()
         {
